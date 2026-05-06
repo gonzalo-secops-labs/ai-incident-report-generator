@@ -1,0 +1,10 @@
+Subject: Suspicious "Payroll Update" message
+Summary:
+- Employee reported receiving an email urging them to update their payroll preferences via a link hosted on a compromised marketing site.
+- Email originated from a newly registered domain that mimics payroll vendor branding but failed SPF checks.
+- Link destination resolves to a parked domain with no valid TLS cert and redirects through three HTTP jumps.
+- A secure web gateway flagged the link as "phishing" and correlated with other suspicious clicks within the past 48 hours.
+Actions:
+- Isolated the affected host to prevent lateral movement.
+- Captured email headers and exported to evidence folder.
+- Submitted indicators to threat intel for enrichment and blocking.

@@ -1,0 +1,10 @@
+Subject: Impossible Travel alert for cloud-admin
+Summary:
+- Cloud admin account logged in from London at 03:12 UTC and Manila at 03:19 UTC within a 7-minute window.
+- MFA challenge failed initially but eventually succeeded after additional verification prompts.
+- GeoIP lookup indicates both IPs belong to new VMs spun up in different regions.
+- Access was granted to a sensitive storage bucket containing internal documents.
+Actions:
+- Paused the account, reset credentials, performed OAuth audit, and reviewed allowed IP rules.
+- Exported audit logs for future threat hunting.
+- Notified affected stakeholders and added to priority ticket queue.
