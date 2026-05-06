@@ -1,6 +1,6 @@
 # AI Incident Report / Client Update Generator
 
-Lightweight Streamlit scaffold that converts safe, fictional SOC analyst notes into structured incident response deliverables for portfolio demos.
+AI-assisted Streamlit app that converts safe demo SOC analyst notes into structured incident response reports and client-ready updates.
 
 ## Demo Screenshot
 
